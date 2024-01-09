@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/36fa0e0ee89f43348393cd2278c6af62/artifacts
+end_time: 1704768355884
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 36fa0e0ee89f43348393cd2278c6af62
+run_name: unruly-snake-928
+run_uuid: 36fa0e0ee89f43348393cd2278c6af62
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704768348777
+status: 4
+tags: []
+user_id: user

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/fc5a68ffec254406b27993dadaa63389/artifacts
+end_time: 1704769453957
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fc5a68ffec254406b27993dadaa63389
+run_name: welcoming-ant-640
+run_uuid: fc5a68ffec254406b27993dadaa63389
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704769446729
+status: 4
+tags: []
+user_id: user

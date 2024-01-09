@@ -4,9 +4,11 @@ import pandas as pd
 import joblib
 import numpy as np
 from pydantic import BaseModel
-from data_and_model_tests import load_trained_model
+
 
 # create an instance of fastapi
+
+model = joblib.load("model/model.pkl")
 
 app= FastAPI()
 
@@ -31,12 +33,11 @@ def predict_species(data:Inputs):
     petal_width = data['petal_width']
     
     # load the trained model from data_and_model_tests
-    model = load_trained_model()
     
     prediction = model.predict([[sepal_length,sepal_width, petal_length,petal_width]])
     
     return {
-        'prediction': prediction[0]
+        'prediction': int(prediction[0])
     }
 
 if __name__ == '__main__':

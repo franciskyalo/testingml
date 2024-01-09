@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/06b50346750b42d99783159aed50f4e2/artifacts
+end_time: 1704769044780
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 06b50346750b42d99783159aed50f4e2
+run_name: trusting-tern-208
+run_uuid: 06b50346750b42d99783159aed50f4e2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704769037625
+status: 4
+tags: []
+user_id: user

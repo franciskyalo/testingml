@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/bf9413d31e5149f5851c1b47050f7b74/artifacts
+end_time: 1704768281051
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bf9413d31e5149f5851c1b47050f7b74
+run_name: unique-shoat-85
+run_uuid: bf9413d31e5149f5851c1b47050f7b74
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704768280891
+status: 4
+tags: []
+user_id: user
