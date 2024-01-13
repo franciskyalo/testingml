@@ -1,5 +1,5 @@
 
-from testingml.model.data_and_models_tests import load_data, train_model, evaluate_model
+from data_and_models_tests import load_data, train_model, evaluate_model
 
 def test_model_accuracy():
     # Model training and evaluation test
