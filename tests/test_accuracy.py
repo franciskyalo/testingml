@@ -1,4 +1,4 @@
-
+import pytest
 from data_and_models_tests import load_data, train_model, evaluate_model
 
 def test_model_accuracy():
