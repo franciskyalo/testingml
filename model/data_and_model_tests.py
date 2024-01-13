@@ -27,7 +27,8 @@ def log_to_mlflow(model, accuracy, n_estimators=100):
         mlflow.log_param("n_estimators", n_estimators)
         mlflow.log_metric("accuracy", accuracy)
         mlflow.sklearn.log_model(model, "model")
-
+        mlflow.set_tracking_uri(uri="http://localhost:5000")
+        
         # Save the model using joblib for local deployment
         joblib.dump(model, "model/model.pkl")
 
