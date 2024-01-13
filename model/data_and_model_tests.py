@@ -7,6 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 import joblib
 
+
 def load_data():
     iris = datasets.load_iris()
     X_train, X_test, y_train, y_test = train_test_split(iris.data, iris.target, test_size=0.2, random_state=42)
@@ -22,12 +23,11 @@ def evaluate_model(model, X_test, y_test):
     accuracy = accuracy_score(y_test, y_pred)
     return accuracy
 
-def log_to_mlflow(model, accuracy, n_estimators=100):
+def log_to_mlflow(model, accuracy, n_estimators=50):
     with mlflow.start_run():
         mlflow.log_param("n_estimators", n_estimators)
         mlflow.log_metric("accuracy", accuracy)
-        mlflow.sklearn.log_model(model, "model")
-        mlflow.set_tracking_uri(uri="http://localhost:5000")
+        mlflow.sklearn.log_model(model, "model/model")
         
         # Save the model using joblib for local deployment
         joblib.dump(model, "model/model.pkl")
@@ -43,3 +43,6 @@ def train_and_log():
 
     # Log the model and metrics using MLflow
     log_to_mlflow(model, accuracy)
+
+if __name__ == "__main__":
+    train_and_log()

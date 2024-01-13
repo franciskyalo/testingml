@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/d4c2c90776374e52921d7f4bb51c4125/artifacts
+end_time: 1705139481061
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d4c2c90776374e52921d7f4bb51c4125
+run_name: languid-hog-145
+run_uuid: d4c2c90776374e52921d7f4bb51c4125
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1705139471235
+status: 4
+tags: []
+user_id: user
