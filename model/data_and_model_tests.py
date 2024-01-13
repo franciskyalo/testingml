@@ -42,6 +42,3 @@ def train_and_log():
 
     # Log the model and metrics using MLflow
     log_to_mlflow(model, accuracy)
-
-if __name__ == "__main__":
-    train_and_log()
